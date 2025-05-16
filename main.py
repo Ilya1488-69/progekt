@@ -167,7 +167,7 @@ def start_message(message):
     for button in buttons:
         markup.add(button)
     # отправляем сообщения пользователю, который написал команду /start
-    bot.send_message(message.chat.id, f'Привет, {user_first_name}!\nТебя приветствует Asenshik_bot,'
+    bot.send_message(message.chat.id, f'Привет, {user_first_name}!\nТебя приветствует iron man,'
                                       f' пользуйся ботом с помощью команд снизу👇.', reply_markup=markup)
 
 
